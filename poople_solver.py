@@ -24,10 +24,9 @@ while queue:
 			continue
 		else:
 			queue.append(word)
-		
+			visited.append(word)
+
 		predecessors[word] = origin_word
-	
-	visited.append(origin_word)
 
 optimal_path = ["POOP"]
 
